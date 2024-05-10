@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="img/jpn" href="https://png.pngtree.com/png-clipart/20230427/original/pngtree-3-star-png-image_9112613.png">
+    <title>Portafolio Web --- LDM</title>
+</head>
+
+
+<body>
+    <!-- seccion de INICIO -->
+    <main id="inicio">
+        <nav>
+            <div class="container d-flex justify-space-between">
+                <a href="#">
+                    <div class="logo">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <!-- <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i> -->
+                        <h1>LUCRACK</h1>
+                    </div>
+                </a>
+                <ul class="nav-menu d-flex">
+                    <li>
+                        <a href="#inicio">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="#habilidades">HABILIDADES</a>
+                    </li>
+                    <li>
+                        <a href="#trabajos">TRABAJOS</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
+                    </li>
+                    <!-- <li>
+                        <button class="change-mode"><i class="fa-solid fa-moon"></i></button>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+
+        <section class="home" id="home">
+            <div class="container d-flex justify-space-between">
+                <div class="home-txt">
+                    <span>Hola, soy</span>
+                    <h1>Lucas Medran</h1>
+                    <h2>Desarrollador <span id="type-it"></span></h2>
+                    <p>Estudiante de Ing. en Sistemas, con gran interés en acceder al mercado
+                        laboral para poner en práctica mis conocimientos. <br>
+                        Soy una persona trabajadora, comunicativa y comprometida, Desearía encontrar una
+                        oportunidad para adquirir más experiencia profesional.</p>
+                    
+                    <a href="descarga/Lucas-Medran---CV.pdf" target="_blank"><button class="btn btn-1">Descargar CV</button></a>
+                </div>
+                <div class="home-img-border">
+                    <div class="home-img">
+                        <img src="img/fot_inc.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <ul class="home-social">
+                <li>
+                    <a href="https://www.linkedin.com/in/lucas-medran-b676b0249/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Lucrack7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="tel:+3512829973"><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:lucasmedran14@gmail.com" ><i class="fa-regular fa-envelope" target="_blank"></i></a>
+                </li>
+            </ul>
+            <div class="btm-svg"></div>
+        </section>
+        
+
+
+    <!-- seccion de SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador Front-end</h3>
+                    <p>Como desarrollador capacitado y apasionado por crear soluciones innovadoras, aporto una base sólida en desarrollo web y lenguajes de programación. Con experiencia en HTML , CSS , JavaScript , TypeScript y React , estoy bien versado en la creación de interfaces de usuario dinámicas y responsivas.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-users-rectangle"></i>
+                        </div>
+                    </div>
+                    <h3>Segundo año de Ing en Sistemas</h3>
+                    <p>Actualmente estoy cursando el segundo año de la carrera Ingenieria en Sistemas de Informacion</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador Back-end</h3>
+                    <p>Mis conocimientos de Python y PHP me permiten abordar una amplia gama de tareas, desde el análisis de datos hasta la automatización.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                    </div>
+                    <h3>Control de versiones con Git</h3>
+                    <p>Soy competente en el uso de Git para el control de versiones, incluida la creación y gestión de repositorios, bifurcaciones, fusiones y colaboración con equipos en proyectos.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollo Apps con React</h3>
+                    <p>En general, me siento cómodo trabajando con React y tengo un conocimiento sólido de sus conceptos básicos y mejores prácticas. Siempre busco ampliar mis habilidades y mantenerme actualizado con los últimos desarrollos en el ecosistema React.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">    
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador de Apps Moviles</h3>
+                    <p>orem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur cum, voluptates minus iste voluptatem</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- seccion de HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades y Aptitudes</h2>
+        
+            <div class="imagen">
+                <img src="img/skills_sin_fondo.png" alt="">
+            </div>
+
+            <div class="descripcion">
+                <p>Soy un desarrollador con habllidades sólidas en programación web.
+                    destacando en HTML, CSS, JavaScript, Typescript, React y Python.
+                    <br>
+                    <br>
+                    Soy una persona responsable que se compromete a entregar resultados de calidad, cumpliendo con los plazos establecidos y superando expectativas. Mi capacidad de adaptabilidad me permite desenvolverme con facilidad en diferentes contextos, manteniendo siempre un alto nivel de desempeño. 
+                </p>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+    <!-- seccion de TRABAJOS -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('html/css/js')">Html-Css-Js</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('react')">React</a>
+            <!-- <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a> -->
+        </nav>
+
+        <!-- trabajos con html - css - js -->
+        <div class="galeria">
+            <div class="item html/css/js">
+                <img src="img/html_1.png" alt="">
+                <div class="info">
+                    <h3>Cuenta Regresiva MB22</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/cuenta-reg-MB/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item html/css/js">
+                <img src="img/html_2.png" alt="">
+                <div class="info">
+                    <h3>Clon de ML</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/Clon_MercadoLibre/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item html/css/js">
+                <img src="img/html_3.png" alt="">
+                <div class="info">
+                    <h3>Pagina de Login</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/from_login/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item html/css/js">
+                <img src="img/html_4.png" alt="">
+                <div class="info">
+                    <h3>Comercio Electronico</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/ecommerce/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item html/css/js">
+                <img src="img/html_5.png" alt="">
+                <div class="info">
+                    <h3>Login</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/usuario/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item html/css/js">
+                <img src="img/html_6.png" alt="">
+                <div class="info">
+                    <h3>Comercio</h3>
+                    <span>Html</span><span>Css</span><span>Javascript</span>
+                    <a href="https://lucrack7.github.io/Todo_Kool/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+            
+            <!-- trabajos con React -->
+            <div class="item react">
+                <img src="img/React_1.png" alt="">
+                <div class="info">
+                    <h3>Administrador de Clientes</h3>
+                    <span>React</span>
+                    <a href="https://papaya-donut-3eca14.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_2.png" alt="">
+                <div class="info">
+                    <h3>Control de Gastos</h3>
+                    <span>React</span>
+                    <a href="https://neon-meringue-38ff4c.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_3.png" alt="">
+                <div class="info">
+                    <h3>Cotizador de Seguros</h3>
+                    <span>React</span>
+                    <a href="https://profound-kitsune-ff3b24.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_4.png" alt="">
+                <div class="info">
+                    <h3>Frases de Breaking Bad</h3>
+                    <span>React</span>
+                    <a href="https://voluble-florentine-6fce18.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_5.png" alt="">
+                <div class="info">
+                    <h3>Apps Clima</h3>
+                    <span>React</span>
+                    <a href="https://sunny-elf-2fb3d9.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_6.png" alt="">
+                <div class="info">
+                    <h3>Cotizador de Criptomonedas</h3>
+                    <span>React</span>
+                    <a href="https://astonishing-wisp-a70375.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+
+            <div class="item react">
+                <img src="img/React_7.png" alt="">
+                <div class="info">
+                    <h3>Buscador de Imagenes</h3>
+                    <span>React</span>
+                    <a href="https://cheerful-florentine-5ae501.netlify.app/" target="_blank" rel="no-referrer">Ver Trabajo</a>
+                </div>
+            </div>
+            
+
+        <!-- otros trabajos
+        <div class="item animaciones">
+            <img src="img/trabajo1.png" alt="">
+            <div class="info">
+                <h3>Titulo del trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div> -->
+
+
+    </section>
+
+
+    <!-- seccion de CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <form action="https://formsubmit.co/lucasmedran14@gmail.com" method="POST">
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>lucasmedran14@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>351 282-9973</p>
+                    </div>
+                    <div class="info">
+                        <h3>Pais:</h3>
+                        <p>Argentina</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Córdoba</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" name="name" placeholder="Nombre..." class="coulor">
+                    <input type="email" name="email" placeholder="Tu correo..." class="coulor">
+                    <textarea name="subject" id="" cols="30" rows="10" placeholder="Mensaje" class="coulor"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>Creado por Lucrack7 --- 2024</p>
+    </footer>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.change-mode').click(function() {
+                $('body').toggleClass('dark-mode');
+            });
+        });
+    </script> -->
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
